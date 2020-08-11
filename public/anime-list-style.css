@@ -1,0 +1,233 @@
+@\import "https://fonts.googleapis.com/css2?family=Merienda+One&display=swap";
+@\import "https://fonts.googleapis.com/css?family=Oswald";
+:root {
+	--font: 'Merienda One', cursive;
+	--watching: #4caf50;
+	--completed: #2196f3;
+	--onhold: #ffeb3b;
+	--dropped: #f44336;
+	--plantowatch: #9e9e9e;
+	--hover: #304ffe;
+}
+
+
+/* DISTANCE OF LIST FROM TOP 
+Increase or decrease the px amount to change the distance from the top.
+
+.header {
+	padding-bottom: 50px;
+}
+
+*/
+
+
+/* CUSTOM BACKGROUND IMAGE SETTINGS*/
+
+body {
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/* HEADERS AND TABLE LINK FONT */
+
+a {
+	color: white !important;
+	font-family: var(--font);
+}
+
+
+/* CATEGORY HEADER FONT */
+
+.list-unit .list-status-title .text {
+	color: white !important;
+	font-family: var(--font);
+	font-size: 36px;
+	padding: 16px;
+	display: none;
+}
+
+
+/* CATEGORY HEADER BACKGROUND COLOR */
+
+.list-unit .list-status-title {
+	background-color: transparent !important;
+}
+
+
+/* LIST LINK FONT */
+
+.list-table .list-table-data .data a {
+	color: white !important;
+	font-family: var(--font);
+}
+
+
+/* LIST NON-LINK FONT */
+
+body {
+	color: silver !important;
+	font-family: var(--font);
+}
+
+
+/* TAGS FONT */
+
+.list-table .list-table-data .tags {
+	padding: 20px 0;
+}
+
+.list-table .list-table-data .tags a:not(.edit) {
+	pointer-events: none;
+}
+
+.list-table .list-table-data .tags .edit {
+	color: gray !important;
+	font-family: var(--font);
+}
+
+
+/* LINK COLOR ON HOVER*/
+
+a:hover,
+.list-table .list-table-data .data a:hover {
+	color: var(--hover) !important;
+	text-decoration: none;
+}
+
+
+/*BACKGROUND AND BORDER COLOR OF CATEGORY LINKS 
+The first number in the parenthesis is the amount of red (0-255).
+The second number in the parenthesis is the amount of green (0-255).
+The third number in the parenthesis is the amount of blue (0-255).
+The fourth number in the parenthesis is the amount of opacity (.0 to 1).
+
+Change the fourth number (opacity) to a lesser number like .3 for more transparency. Raise to a higher number like .8 for less transparency. 
+*/
+
+.status-menu .status-button {
+	height: 32px;
+	color: white !important;
+	font-family: var(--font);
+}
+
+.status-menu-container {
+	background-color: rgba(50, 50, 50, 0.6) !important;
+	/* border: 1px white solid !important; */
+	border-radius: 10px;
+	height: 56px;
+}
+
+.status-menu-container .status-menu .status-button {
+	font-family: var(--font);
+}
+
+.status-menu-container .search-container {
+	top: 5px;
+}
+
+
+/* BACKGROUND AND BORDER COLOR OF LIST 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+
+.list-block {
+	background-color: rgba(50, 50, 50, 0.6) !important;
+	/* border: 1px white solid !important; */
+	border-radius: 10px;
+}
+
+
+/*BAR COLORS*/
+
+.status-button.reading:after,
+.status-button.watching:after {
+	background: var(--watching)!important
+}
+
+.status-button.completed:after {
+	background: var(--completed)!important
+}
+
+.status-button.onhold:after {
+	background: var(--onhold)!important
+}
+
+.status-button.dropped:after {
+	background: var(--dropped)!important
+}
+
+.status-button.plantoread:after,
+.status-button.plantowatch:after {
+	background: var(--plantowatch)!important
+}
+
+.status.reading,
+.status.watching {
+	background: var(--watching)!important
+}
+
+.status.completed {
+	background: var(--completed)!important
+}
+
+.status.onhold {
+	background: var(--onhold)!important
+}
+
+.status.dropped {
+	background: var(--dropped)!important
+}
+
+.status.plantoread,
+.status.plantowatch {
+	background: var(--plantowatch)!important
+}
+
+
+/*BACKGROUND COLOR OF ROWS ON HOVER 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+
+tbody[class*="list-item"]:hover,
+.list-table tbody:nth-of-type(2n+1):hover {
+	background-color: rgba(0, 0, 0, .5) !important;
+}
+
+
+/*OTHER CODES*/
+
+.list-table>tbody:nth-of-type(2n+1),
+.list-table,
+.list-container,
+.list-table .list-table-header .header-title {
+	background-color: transparent !important;
+	border: 0 transparent solid !important;
+}
+
+.list-table .list-table-data .data {
+	border: 0 transparent solid !important;
+}
+
+.status-menu-container {
+	border-bottom: transparent 0 solid;
+}
+
+
+/*FOOTER*/
+
+#footer-block {
+	background-color: rgba(50, 50, 50, 0.6) !important;
+}
+
+#copyright {
+	font-family: var(--font);
+	color: white;
+}
+
+
+/*
+#copyright:after {
+	content: "\aList design by John Emerson.";
+	white-space: pre
+*/

@@ -1,0 +1,225 @@
+:root {
+  --color-primary-light: #c51162;
+  --color-primary: #ad1457;
+  --color-primary-dark: #880e4f;
+  --color-text: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner,
+.section-banner {
+  background-color: var(--color-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner {
+  height: 54vw;
+}
+
+.section-banner {
+  height: 48vw;
+}
+
+.wave-1 {
+  position: absolute;
+  width: 100%;
+  bottom: 1vw;
+}
+
+.wave-2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.wave-3 {
+  position: absolute;
+  width: 100%;
+  bottom: -4vw;
+}
+
+svg {
+  display: block;
+}
+
+.content {
+  background-color: var(--color-primary-light);
+}
+
+.wave-fill {
+  height: 4vw;
+  background-color: var(--color-primary);
+}
+
+.welcome {
+  position: relative;
+}
+
+.welcome-title,
+.section-title,
+legend,
+.anime-title {
+  text-shadow:
+    .4vw .4vw .4vw var(--color-primary-dark),
+    -1px -1px 0 var(--color-primary-dark),
+    1px -1px 0 var(--color-primary-dark),
+    -1px 1px 0 var(--color-primary-dark),
+    1px 1px 0 var(--color-primary-dark);
+}
+
+.welcome-title,
+.section-title {
+  position: absolute;
+  font-family: 'Rancho', cursive;
+  color: var(--color-text);
+  text-align: center;
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 20vw;
+  top: -22vw;
+}
+
+.about-me {
+  padding: 1vw 4vw 0;
+}
+
+fieldset {
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 2vw;
+  padding: 0 6vw;
+  color: var(--color-text);
+  text-align: center;
+}
+
+legend {
+  font-family: 'Pacifico', cursive;
+  font-size: 5vw;
+  padding: 0 1.5vw;
+  position: relative;
+  bottom: .8vw;
+}
+
+p {
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-family: 'Sriracha', cursive;
+  position: relative;
+  top: -1.5vw;
+}
+
+.social {
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 6vw 0;
+  position: relative;
+  top: -3vw;
+  z-index: 1;
+}
+
+.instagram,
+.league,
+.fate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 2.25vw;
+  font-family: 'Mitr', sans-serif;
+}
+
+.instagram .icon,
+.league .icon,
+.fate .icon {
+  width: 4vw;
+  height: 4vw;
+  margin-right: 1vw;
+}
+
+.fate .icon {
+  border-radius: .8vw;
+}
+
+.wave-invert-1 {
+  position: absolute;
+  width: 100%;
+  top: -20vw;
+}
+
+.wave-invert-2 {
+  position: absolute;
+  width: 100%;
+  top: -16vw;
+}
+
+.wave-invert-3 {
+  position: absolute;
+  width: 100%;
+  top: -15vw;
+}
+
+.favorite-anime,
+.favorite-characters {
+  position: relative;
+}
+
+.section-title {
+  font-size: 12vw;
+  top: -15vw;
+}
+
+.top-10-animes {
+  padding: 2vw 0 6vw;
+  position: relative;
+  z-index: 1;
+}
+
+.animes-row {
+  padding: 0 6vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.anime {
+  width: 16vw;
+  height: 26vw;
+}
+
+.anime-image {
+  width: 13vw;
+  height: 20vw;
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 1vw;
+
+  background-color: var(--color-primary);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
+}
+
+.anime-title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vw;
+  top: -8.5vw;
+  color: var(--color-text);
+  font-size: 2vw;
+  line-height: 2.25vw;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
