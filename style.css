@@ -3,6 +3,11 @@
   --color-primary: #ad1457;
   --color-primary-dark: #880e4f;
   --color-text: #fff;
+
+  --font-primary: 'Rancho', cursive;
+  --font-secondary: 'Pacifico', cursive;
+  --font-text: 'Ubuntu', sans-serif;
+  --font-links: 'Mitr', sans-serif;
 }
 
 body {
@@ -76,7 +81,7 @@ legend,
 .welcome-title,
 .section-title {
   position: absolute;
-  font-family: 'Rancho', cursive;
+  font-family: var(--font-primary);
   color: var(--color-text);
   text-align: center;
   width: 100%;
@@ -94,13 +99,13 @@ legend,
 fieldset {
   border: 1vw solid var(--color-primary-dark);
   border-radius: 2vw;
-  padding: 0 6vw;
+  padding: 0 4vw;
   color: var(--color-text);
   text-align: center;
 }
 
 legend {
-  font-family: 'Pacifico', cursive;
+  font-family: var(--font-secondary);
   font-size: 5vw;
   padding: 0 1.5vw;
   position: relative;
@@ -108,9 +113,10 @@ legend {
 }
 
 p {
-  font-size: 2.5vw;
-  line-height: 3vw;
-  font-family: 'Sriracha', cursive;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  font-family: var(--font-text);
+  font-weight: bold;
   position: relative;
   top: -1.5vw;
 }
@@ -135,7 +141,7 @@ p {
   align-items: center;
   color: var(--color-text);
   font-size: 2.25vw;
-  font-family: 'Mitr', sans-serif;
+  font-family: var(--font-links);
 }
 
 .instagram .icon,
@@ -218,8 +224,8 @@ p {
   height: 16vw;
   top: -8.5vw;
   color: var(--color-text);
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 2.25vw;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: var(--font-primary);
 }
