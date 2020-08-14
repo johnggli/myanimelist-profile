@@ -198,7 +198,7 @@ p {
 }
 
 .anime {
-  width: 16vw;
+  width: 17vw;
   height: 26vw;
 }
 
@@ -224,7 +224,9 @@ p {
   height: 16vw;
   top: -8.5vw;
   color: var(--color-text);
-  font-size: 3vw;
+  font-weight: 600;
+  letter-spacing: .15vw;
+  font-size: 2.5vw;
   line-height: 2.25vw;
   text-align: center;
   font-family: var(--font-primary);
