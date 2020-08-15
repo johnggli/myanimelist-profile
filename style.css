@@ -191,21 +191,22 @@ p {
   z-index: 1;
 }
 
-.animes-row {
-  padding: 0 6vw 0;
+.animes-row,
+.characters-row {
+  padding: 0 3vw 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .anime {
-  width: 17vw;
-  height: 26vw;
+  width: 18vw;
+  height: 30vw;
 }
 
 .anime-image {
-  width: 13vw;
-  height: 20vw;
+  width: 14vw;
+  height: 22vw;
   border: 1vw solid var(--color-primary-dark);
   border-radius: 1vw;
 
@@ -217,54 +218,7 @@ p {
   margin: 0 auto;
 }
 
-.anime-name {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 16vw;
-  top: -8.5vw;
-  color: var(--color-text);
-  font-weight: 600;
-  letter-spacing: .15vw;
-  font-size: 2.5vw;
-  line-height: 2.25vw;
-  text-align: center;
-  font-family: var(--font-primary);
-}
-
-.top-10-characters {
-  padding: 2vw 0 6vw;
-  position: relative;
-  z-index: 1;
-}
-
-.characters-row {
-  padding: 0 6vw 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.character {
-  width: 17vw;
-  height: 19vw;
-}
-
-.character-image {
-  width: 13vw;
-  height: 13vw;
-  border: 1vw solid var(--color-primary-dark);
-  border-radius: 50%;
-
-  background-color: var(--color-primary);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  margin: 0 auto;
-}
-
+.anime-name,
 .character-name {
   position: relative;
   display: flex;
@@ -275,8 +229,33 @@ p {
   color: var(--color-text);
   font-weight: 600;
   letter-spacing: .15vw;
-  font-size: 2.5vw;
-  line-height: 2.25vw;
+  font-size: 2.8vw;
+  line-height: 2.5vw;
   text-align: center;
   font-family: var(--font-primary);
+}
+
+.top-10-characters {
+  padding: 2vw 0 6vw;
+  position: relative;
+  z-index: 1;
+}
+
+.character {
+  width: 18vw;
+  height: 20vw;
+}
+
+.character-image {
+  width: 14vw;
+  height: 14vw;
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 50%;
+
+  background-color: var(--color-primary);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
 }
