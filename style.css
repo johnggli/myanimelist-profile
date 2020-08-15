@@ -69,7 +69,8 @@ svg {
 .welcome-title,
 .section-title,
 legend,
-.anime-title {
+.anime-name,
+.character-name {
   text-shadow:
     .4vw .4vw .4vw var(--color-primary-dark),
     -1px -1px 0 var(--color-primary-dark),
@@ -216,7 +217,55 @@ p {
   margin: 0 auto;
 }
 
-.anime-title {
+.anime-name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vw;
+  top: -8.5vw;
+  color: var(--color-text);
+  font-weight: 600;
+  letter-spacing: .15vw;
+  font-size: 2.5vw;
+  line-height: 2.25vw;
+  text-align: center;
+  font-family: var(--font-primary);
+}
+
+.top-10-characters {
+  padding: 2vw 0 6vw;
+  position: relative;
+  z-index: 1;
+}
+
+.characters-row {
+  padding: 0 6vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.character {
+  width: 17vw;
+  height: 19vw;
+}
+
+.character-image {
+  width: 13vw;
+  height: 13vw;
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 50%;
+
+  background-color: var(--color-primary);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
+}
+
+.character-name {
   position: relative;
   display: flex;
   justify-content: center;
