@@ -70,7 +70,9 @@ svg {
 .section-title,
 legend,
 .anime-name,
-.character-name {
+.character-name,
+.opening-name,
+.opening-anime {
   text-shadow:
     .4vw .4vw .4vw var(--color-primary-dark),
     -1px -1px 0 var(--color-primary-dark),
@@ -176,7 +178,8 @@ p {
 }
 
 .favorite-anime,
-.favorite-characters {
+.favorite-characters,
+.favorite-openings {
   position: relative;
 }
 
@@ -192,8 +195,9 @@ p {
 }
 
 .animes-row,
-.characters-row {
-  padding: 0 3vw 0;
+.characters-row,
+.openings-row {
+  padding: 0 4vw 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -201,7 +205,7 @@ p {
 
 .anime {
   width: 18vw;
-  height: 30vw;
+  height: 29vw;
 }
 
 .anime-image {
@@ -219,7 +223,8 @@ p {
 }
 
 .anime-name,
-.character-name {
+.character-name,
+.opening-anime {
   position: relative;
   display: flex;
   justify-content: center;
@@ -258,4 +263,45 @@ p {
   background-size: cover;
 
   margin: 0 auto;
+}
+
+.top-10-openings {
+  padding: 4vw 0 6vw;
+  position: relative;
+  z-index: 1;
+}
+
+.opening {
+  width: 44vw;
+  height: 30vw;
+}
+
+.opening-image {
+  width: 42vw;
+  height: 22vw;
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 1vw;
+
+  background-color: var(--color-primary);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
+}
+
+.opening-name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vw;
+  top: -47.8vw;
+  color: var(--color-text);
+  font-weight: 600;
+  letter-spacing: .15vw;
+  font-size: 4vw;
+  line-height: 3vw;
+  text-align: center;
+  font-family: var(--font-primary);
 }
