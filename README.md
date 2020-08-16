@@ -36,7 +36,7 @@ Use the sites below to generate an image from html and css files, cut the image 
 - [HTML & CSS to Img](https://htmlcsstoimage.com/)
 - [Image Splitter](https://splitter.imageonline.co/)
 
-The tutorial below teaches you how to upload your image to your MyAnimeList profile.
+The tutorial below teaches you how to upload your images to your MyAnimeList profile.
 - [Youtube tutorial](https://www.youtube.com/watch?v=u6Mwy4wMRUk)
 
 ---
