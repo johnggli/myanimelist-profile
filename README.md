@@ -31,10 +31,12 @@
 
 ## :rocket: Getting started
 
-- After downloading this repository, make changes to images and text in the `index.html` file. If desired, change the colors and fonts in the `style.css` file.
-- Use the sites below to generate an image from html and css files, cut the image into several parts and then upload them to your MyAnimeList profile.
+After downloading this repository, make changes to images and text in the `index.html` file. If desired, change the colors and fonts in the `style.css` file.
+Use the sites below to generate an image from html and css files, cut the image into several parts and then upload them to your MyAnimeList profile.
 - [HTML & CSS to Img](https://htmlcsstoimage.com/)
 - [Image Splitter](https://splitter.imageonline.co/)
+
+The tutorial below teaches you how to upload your image to your MyAnimeList profile.
 - [Youtube tutorial](https://www.youtube.com/watch?v=u6Mwy4wMRUk)
 
 ---
