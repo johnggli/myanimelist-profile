@@ -281,6 +281,7 @@ p {
 .ending {
   width: 44vw;
   height: 30vw;
+  text-decoration: none;
 }
 
 .opening-image,
@@ -313,4 +314,19 @@ p {
   line-height: 3vw;
   text-align: center;
   font-family: var(--font-primary);
+}
+
+.link-alert {
+  position: relative;
+  top: .5vw;
+  color: var(--color-text);
+  width: 36vw;
+  border-radius: 2vw;
+  text-align: center;
+  margin: 0 auto 1vw;
+  font-size: 2vw;
+  font-family: var(--font-text);
+  font-weight: bold;
+  padding: .5vw 0 .6vw;
+  background: var(--color-primary);
 }
