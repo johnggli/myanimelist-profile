@@ -182,7 +182,8 @@ p {
 .favorite-anime,
 .favorite-characters,
 .favorite-openings,
-.favorite-endings {
+.favorite-endings,
+.vocaloid {
   position: relative;
 }
 
