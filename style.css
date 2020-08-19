@@ -77,7 +77,8 @@ legend,
 .ending-anime,
 .vocaloid .favorite .title,
 .vocaloid .songs .title,
-.voice-name {
+.voice-name,
+.producer-name {
   text-shadow:
     .4vw .4vw .4vw var(--color-primary-dark),
     -1px -1px 0 var(--color-primary-dark),
@@ -186,7 +187,8 @@ p {
 .favorite-characters,
 .favorite-openings,
 .favorite-endings,
-.vocaloid {
+.vocaloid,
+.thanks {
   position: relative;
 }
 
@@ -237,7 +239,8 @@ p {
 .character-name,
 .opening-anime,
 .ending-anime,
-.voice-name {
+.voice-name,
+.producer-name {
   position: relative;
   display: flex;
   justify-content: center;
@@ -345,19 +348,22 @@ p {
   color: var(--color-text);
 }
 
-.voices-row {
+.voices-row,
+.producers-row {
   padding: 1vw 4vw 1vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.voice {
+.voice,
+.producer {
   width: 13vw;
   height: 16vw;
 }
 
-.voice-image {
+.voice-image,
+.producer-image {
   width: 11vw;
   height: 11vw;
   border: 1vw solid var(--color-primary-dark);
@@ -369,4 +375,42 @@ p {
   background-size: cover;
 
   margin: 0 auto;
+}
+
+.horizontal-line {
+  margin: 0 6vw;
+  border: .1vw solid var(--color-primary);
+}
+
+.top-10-songs {
+  color: var(--color-text);
+  width: 32vw;
+  border-radius: 2vw;
+  margin: 1vw auto 1vw;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-family: var(--font-text);
+  font-weight: bold;
+  padding: 2vw 3vw;
+  background: var(--color-primary);
+}
+
+.vocaloid-link-alert {
+  color: var(--color-text);
+  width: 32vw;
+  border-radius: 2vw;
+  text-align: center;
+  margin: 1vw auto 1vw;
+  font-size: 2vw;
+  font-family: var(--font-text);
+  font-weight: bold;
+  padding: .6vw 3vw .8vw;
+  background: var(--color-primary);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.thanks {
+  height: 5vw;
 }
