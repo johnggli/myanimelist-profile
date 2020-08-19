@@ -16,7 +16,8 @@ body {
 }
 
 .banner,
-.section-banner {
+.section-banner,
+.thanks-banner {
   background-color: var(--color-primary);
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,6 +412,10 @@ p {
   justify-content: center;
 }
 
+.thanks-banner {
+  height: 60vw;
+}
+
 .thanks {
-  height: 5vw;
+  height: 2vw;
 }
