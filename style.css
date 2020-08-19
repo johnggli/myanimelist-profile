@@ -74,7 +74,10 @@ legend,
 .opening-name,
 .opening-anime,
 .ending-name,
-.ending-anime {
+.ending-anime,
+.vocaloid .favorite .title,
+.vocaloid .songs .title,
+.voice-name {
   text-shadow:
     .4vw .4vw .4vw var(--color-primary-dark),
     -1px -1px 0 var(--color-primary-dark),
@@ -233,7 +236,8 @@ p {
 .anime-name,
 .character-name,
 .opening-anime,
-.ending-anime {
+.ending-anime,
+.voice-name {
   position: relative;
   display: flex;
   justify-content: center;
@@ -320,4 +324,49 @@ p {
   font-weight: bold;
   padding: .5vw 0 .6vw;
   background: var(--color-primary);
+}
+
+.vocaloid {
+  display: flex;
+  height: 58vw;
+  z-index: 1;
+}
+
+.vocaloid .favorite,
+.vocaloid .songs {
+  width: 50%;
+}
+
+.vocaloid .favorite .title,
+.vocaloid .songs .title {
+  font-family: var(--font-secondary);
+  font-size: 4vw;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.voices-row {
+  padding: 1vw 4vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.voice {
+  width: 13vw;
+  height: 16vw;
+}
+
+.voice-image {
+  width: 11vw;
+  height: 11vw;
+  border: 1vw solid var(--color-primary-dark);
+  border-radius: 50%;
+
+  background-color: var(--color-primary);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
 }
