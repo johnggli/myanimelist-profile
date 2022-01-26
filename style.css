@@ -144,7 +144,7 @@ p {
 
 .instagram,
 .league,
-.fate {
+.genshin {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -156,13 +156,13 @@ p {
 
 .instagram .icon,
 .league .icon,
-.fate .icon {
+.genshin .icon {
   width: 4vw;
   height: 4vw;
   margin-right: 1vw;
 }
 
-.fate .icon {
+.genshin .icon {
   border-radius: .8vw;
 }
 
