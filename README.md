@@ -2,16 +2,16 @@
 <h3 align="center">My styles for the MyAnimeList's profile and anime/manga page.</h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JohnEmerson1406/myanimelist-profile?color=%230d47a1">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/johnggli/myanimelist-profile?color=%230d47a1">
   
-  <a href="https://www.linkedin.com/in/johnemerson1406/">
+  <a href="https://www.linkedin.com/in/johnggli/">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-John%20Emerson-%230d47a1">
   </a>
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JohnEmerson1406/myanimelist-profile?color=%230d47a1">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnggli/myanimelist-profile?color=%230d47a1">
   
-  <a href="https://github.com/JohnEmerson1406/myanimelist-profile/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JohnEmerson1406/myanimelist-profile?color=%230d47a1">
+  <a href="https://github.com/johnggli/myanimelist-profile/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnggli/myanimelist-profile?color=%230d47a1">
   </a>
 </p>
 
@@ -26,8 +26,8 @@
 ## :bulb: About the project
 
 - This repository serves to store my html and css styles used in my MyAnimeList profile, feel free to use them.
-- [My profile on MyAnimeList](https://myanimelist.net/profile/JohnEmerson1406)
-- [Deploy](https://johnemerson1406.github.io/myanimelist-profile/)
+- [My profile on MyAnimeList](https://myanimelist.net/profile/johnggli)
+- [Deploy](https://johnggli.github.io/myanimelist-profile/)
 
 ## :rocket: Getting started
 
@@ -48,4 +48,4 @@ The tutorial below teaches you how to upload your images to your MyAnimeList pro
 
 ---
 
-Made with ♥ by John Emerson :wave: [Get in touch](https://johnemerson1406.github.io/linktree)
+Made with ♥ by John Emerson :wave: [Get in touch](https://johnggli.github.io/linktree)
