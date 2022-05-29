@@ -135,7 +135,7 @@ p {
   height: 20vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 6vw 0;
   position: relative;
   top: -3vw;
